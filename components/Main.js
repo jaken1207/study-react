@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Headline } from '../components/Headline'
 import { Links } from '../components/Links'
-import styles from '../styles/Home.module.css'
+import styles from './Main.module.css'
 
 export function Main(props) {
   return (
