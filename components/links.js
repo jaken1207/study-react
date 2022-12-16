@@ -9,7 +9,7 @@ export function Links() {
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2 className={style.title}>Learn &rarr;</h2>
+            <h2 className={styles.title}>Learn &rarr;</h2>
             <p className={styles.description}>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
@@ -17,7 +17,7 @@ export function Links() {
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2 className={style.title}>Examples &rarr;</h2>
+            <h2 className={styles.title}>Examples &rarr;</h2>
             <p className={styles.description}>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
@@ -27,7 +27,7 @@ export function Links() {
             rel="noopener noreferrer"
             className={styles.card}
           >
-            <h2 className={style.title}>Deploy &rarr;</h2>
+            <h2 className={styles.title}>Deploy &rarr;</h2>
             <p className={styles.description}>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
