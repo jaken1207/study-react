@@ -1,5 +1,5 @@
 import { calculateSizeAdjustValues } from 'next/dist/server/font-utils';
-import styles from './Links.module.css'
+import styles from 'src/components/Links/Links.module.css'
 
 
 const ITEMS = [
