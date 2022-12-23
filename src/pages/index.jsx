@@ -21,20 +21,20 @@ export default function Home() {
     setIsShow((isShow)=> !isShow);
   }, []);
 
+  const handleChange = useCallback((e) =>{
+    if(e.target.value.length > 5) {
+      alert("5文字以上入力できません");
+      return;
+    }
+    setText(e.target.value.trim());
+  }, []);
+
   useEffect(() =>{
     document.body.style.backgroundColor = "lightblue";
     return () => {
       document.body.style.backgroundColor = "";
     };
   }, []);
-
-const handleChange = useCallback((e) =>{
-  if(e.target.value.length > 5) {
-    alert("5文字以上入力できません");
-    return;
-  }
-  setText(e.target.value.trim());
-}, []);
 
   return (
     <div className={styles.container}>
