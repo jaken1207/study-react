@@ -7,8 +7,9 @@ export function Headline(props) {
           {props.page} page
         </h1>
         <p className={styles.description}>
-          Get started by editing {props.children}
+          アイテムの数は {props.children}個です。
         </p>
+        <button onClick={props.handleReduce}>減らす</button>
     </div>
   );
 }
